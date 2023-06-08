@@ -1,11 +1,13 @@
 # frozen_string_literal: true
 
-RSpec.describe Gistar do
+require "gistar"
+
+RSpec.describe Gistar::Gistar do
   it "has a version number" do
     expect(Gistar::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "prints greeting" do
+    expect(Gistar::Gistar.greet).to eq("Gistar started.")
   end
 end

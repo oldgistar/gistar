@@ -9,4 +9,6 @@ require "rubocop/rake_task"
 
 RuboCop::RakeTask.new
 
+require "cucumber/rake/task"
+
 task default: %i[spec rubocop]

@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-require_relative "gistar/version"
+require "gistar/gistar"
 
+# Encapsulates library features.
 module Gistar
-  class Error < StandardError; end
-  # Your code goes here...
 end
