@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require "gistar"
 
 RSpec.describe Gistar::Gistar do
